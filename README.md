@@ -41,14 +41,21 @@ We can use the built in identity provider for web api to handle authentiction, b
 
 #Use cases
 
--Providing the build server with a next version to tag the build with.  
--Answering what version questions, what version was the feature added, what version was the JIRA fixed, what version(s) is in prod.
--Recording info like version status ate various levels.  
--Allow manager to sign off a version for the next level (staging, prod).
--Produce good release notes with information for multiple products
--Show dashboard of products showing current versions of each, and status of next 'release'
--Display product roadmap with version numbers
--Show version graph, and visualize the various active versions, their status and hotfixes.
+- Providing the build server with a next version to tag the build with.  
+
+- Answering what version questions, what version was the feature added, what version was the JIRA fixed, what version(s) is in prod.
+
+- Recording info like version status ate various levels.  
+
+- Allow manager to sign off a version for the next level (staging, prod).
+
+- Produce good release notes with information for multiple products
+
+- Show dashboard of products showing current versions of each, and status of next 'release'
+
+- Display product roadmap with version numbers
+
+- Show version graph, and visualize the various active versions, their status and hotfixes.
 
 
 #Questions/notes
