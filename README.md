@@ -39,6 +39,18 @@ For handling search, we probably also want to build a lucene index of all the ve
 
 We can use the built in identity provider for web api to handle authentiction, but we also wanto to consider having SSO capability with Atlassian Crowd, and support oauth, or SAML or whatever to allow easy linking between our app and other apps like TFS for JIRA.
 
+#Use cases
+
+-Providing the build server with a next version to tag the build with.  
+-Answering what version questions, what version was the feature added, what version was the JIRA fixed, what version(s) is in prod.
+-Recording info like version status ate various levels.  
+-Allow manager to sign off a version for the next level (staging, prod).
+-Produce good release notes with information for multiple products
+-Show dashboard of products showing current versions of each, and status of next 'release'
+-Display product roadmap with version numbers
+-Show version graph, and visualize the various active versions, their status and hotfixes.
+
+
 #Questions/notes
 
 What does it mean for a commit to be in a version.  We get the chance to mark it when it first appears in a build, but it is contained in every build after that.  Questions we want to answer with this are when (what version) was a commit introduced? and does this version use this code (commit).  
